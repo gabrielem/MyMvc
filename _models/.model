@@ -1,0 +1,33 @@
+<?php
+//_models/_all.php
+class mod_ITEMNAME extends modAll
+{
+var $includeCoreComponents=array();
+var $includeComponents=array();
+
+    function _beforeInit($a) 
+    {
+        $a=parent::_beforeInit($a);
+        $a['title']="";
+        $a=$this->_JS($a);
+        return $a;
+    }
+
+    function init($a)
+    {
+        $a=parent::init($a);
+        return $a;
+    }
+    
+    function _afterInit($a)
+    {
+        $a=parent::_afterInit($a);
+        return $a;
+    }
+
+    function _JS($a){
+        $a['JS']='';
+        return $a;
+    }
+
+}

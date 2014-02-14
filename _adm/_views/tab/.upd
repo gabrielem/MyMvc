@@ -1,0 +1,8 @@
+
+
+
+<?php
+$creaFormUpd = new generaForm(); 
+echo $creaFormUpd->_upd($tab,$id_record); 
+?>
+

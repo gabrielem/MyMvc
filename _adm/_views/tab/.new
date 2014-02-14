@@ -1,0 +1,7 @@
+
+<?php
+//_generaFormNew($tab);
+$creaFormNew = new generaForm(); 
+echo $creaFormNew->_new($tab); 
+?>
+
