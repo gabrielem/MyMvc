@@ -1,0 +1,6 @@
+me": "gabrielem/MyMvc",
+    "require": {
+        "php": ">=5.3.0",
+        "another-vendor/package": "1.*"
+    }
+}
